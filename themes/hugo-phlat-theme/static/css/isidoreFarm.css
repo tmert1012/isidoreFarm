@@ -1,0 +1,45 @@
+body {
+	padding-top: 150px;
+	background-color: #edddc9;
+}
+
+.navbar-brand {
+	height: auto;
+	padding: 10px 15px;
+}
+
+.navbar-right {
+	padding-top: 37px;
+}
+
+.nav > li:hover {
+   	border-top: 4px solid #455a23;
+}
+
+.navbar-brand img {
+	padding-right: 10px;
+}
+
+.navbar-default {
+	padding: 0px;
+}
+
+.content-card, .card {
+	border-top-color: #455a23;
+}
+
+.button-custom {
+	background-color: #ee3d2d;
+}
+
+.button-custom:hover {
+	background-color: #ed2918;
+}
+
+footer {
+	background-color: #edddc9;
+}
+
+footer .container {
+	text-align: center;
+}

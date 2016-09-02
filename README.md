@@ -1,4 +1,0 @@
-# isidoreFarm
-
-
-public website
