@@ -3,6 +3,14 @@ body {
 	background-color: #edddc9;
 }
 
+.content-card img.logo {
+	width: 240px;
+}
+
+.content-card .introContent {
+	padding-left: 10px;
+}
+
 .navbar-brand {
 	height: auto;
 	padding: 10px 15px;

@@ -1,6 +1,8 @@
 baseurl = "http://isidoreFarm.com/"
 languageCode = "en-us"
 title = "Isidore Farm - Lenoir, NC"
+themesdir = "themes"
+theme = "hugo-phlat-theme"
 
 [permalinks]
     post = "/:year/:month/:slug/"

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on Isidore Farm - Lenoir, NC</title>
+    <link>http://isidoreFarm.com/articles/</link>
+    <description>Recent content in Articles on Isidore Farm - Lenoir, NC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://isidoreFarm.com/articles/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://isidorefarm.com/articles/list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://isidorefarm.com/articles/list/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;{{ .Site.LanguageCode }}&#34;&gt;
+    {{ partial &#34;head.html&#34; . }}
+    &lt;body&gt;
+        {{ partial &#34;navigation/navigation.html&#34; . }}
+        &lt;div id=&#34;top&#34; class=&#34;container&#34;&gt;
+            &lt;div class=&#34;row&#34; id=&#34;content-main&#34;&gt;
+                &lt;div class=&#34;col-md-8&#34;&gt;
+                    {{ $paginator := .Paginate (where .Data.Pages &#34;Type&#34; &#34;post&#34;) }}
+                    {{ range $paginator.Pages }}
+                        &lt;div class=&#34;row&#34;&gt;
+                            &lt;div class=&#34;col-md-12 content-card&#34;&gt;
+                                &lt;h1&gt;&lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Title }}&lt;/a&gt;&lt;/h1&gt;
+                                &lt;ul class=&#34;list-inline&#34;&gt;
+                                    &lt;li&gt;&lt;i class=&#34;fa fa-calendar&#34;&gt;&lt;/i&gt;{{ .Date.Format &#34;January 2, 2006&#34; }}&lt;/li&gt;
+                                    &lt;li&gt;&lt;i class=&#34;fa fa-user&#34;&gt;&lt;/i&gt;{{ .Params.author }}&lt;/li&gt;
+                                &lt;/ul&gt;
+                                {{ .Summary }}
+                                &lt;a class=&#34;btn btn-custom&#34; href=&#34;{{ .Permalink }}&#34; role=&#34;button&#34;&gt;Read More&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    {{ end }}
+                    {{ partial &#34;pagination.html&#34; . }}
+                &lt;/div&gt;
+                &lt;div class=&#34;col-md-4&#34;&gt;
+                    {{ partial &#34;widgets/sidebar/search.html&#34; . }}
+                    {{ partial &#34;widgets/sidebar/recent.html&#34; . }}
+                    {{ partial &#34;widgets/sidebar/adsense.html&#34; . }}
+                    {{ partial &#34;widgets/sidebar/categories.html&#34; . }}
+                    {{ partial &#34;widgets/sidebar/donate.html&#34; . }}
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        {{ partial &#34;footer.html&#34; . }}
+        {{ partial &#34;foot.html&#34; . }}
+    &lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
