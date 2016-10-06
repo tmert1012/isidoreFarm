@@ -11,6 +11,7 @@ theme = "hugo-phlat-theme"
 [taxonomies]
     tag = "tags"
     category = "categories"
+    series = "series"
 
 [params]
     keywords = ["default", "keywords", "if", "no", "front", "matter"]
