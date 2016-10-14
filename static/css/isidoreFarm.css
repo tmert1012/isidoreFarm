@@ -5,6 +5,8 @@ body {
 
 .content-card img.logo {
 	width: 240px;
+	float: left;
+	padding-right: 10px;
 }
 
 .content-card .introContent {
