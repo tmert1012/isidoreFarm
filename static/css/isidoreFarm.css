@@ -23,7 +23,7 @@ body {
 }
 
 .nav > li:hover {
-   	border-top: 4px solid #455a23;
+  border-top: 4px solid #455a23;
 }
 
 .navbar-brand img {
@@ -52,4 +52,17 @@ footer {
 
 footer .container {
 	text-align: center;
+}
+
+.instagramLeft {
+	width: 50%;
+	float: left;
+	padding: 0px 10px 10px 0px;
+}
+
+.instagramRight {
+	width: 50%;
+	clear: both;
+	float: right;
+	padding: 0px 0px 10px 10px;
 }
