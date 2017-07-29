@@ -1,6 +1,4 @@
-<div style="float:left;">
-![farm logo](http://isidorefarm.com/images/isidore-farm-logo-intro.png "")
-</div>
+<img src="http://isidorefarm.com/images/isidore-farm-logo-intro.png" style="float:left;" />
 
 # Isidore Farm
 
