@@ -1,0 +1,37 @@
+#site-head {
+    color: unset;
+}
+
+#site-head .vertical {
+    padding-top: 300px;
+}
+
+.content .post-holder.odd {
+    background: #241d0a;
+}
+
+.site-footer {
+    color: unset;
+    background: #f2efe8;
+}
+
+.site-footer a {
+    color: unset;
+}
+
+a.btn {
+    background-color: #779a29;
+}
+
+a.btn:hover {
+    background: #465e20;
+}
+
+a.fn-item:hover {
+    color: #465e20;
+}
+
+a.fn-item.active {
+    color: #779a29;
+    opacity: 1;
+}
